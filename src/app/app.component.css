@@ -1,0 +1,21 @@
+.phrases{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container{
+    margin-left: 100px;
+    margin-top: 30px;
+    padding-top: 15px;
+    height: 80px;
+    width: 250px; 
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    height: 50px;
+    width: 200px;
+}
