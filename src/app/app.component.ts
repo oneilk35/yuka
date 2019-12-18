@@ -9,9 +9,9 @@ export class AppComponent {
   title = 'yuka';
 
 
-  playPhrase(){
+  playPhrase(phrase: string){
     const audio = new Audio();
-    audio.src = '../assets/tilltherewasyou.m4a';
+    audio.src = phrase;
     audio.load();
     audio.play();
   }
